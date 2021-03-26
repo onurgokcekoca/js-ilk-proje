@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    background-color: #090A22;
+}
+
+section.full-page{
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+    padding-top: 2vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+
+section.full-page .welcome{
+    color: #F78501;
+    font-size: 3.5em;
+    letter-spacing: 5px;
+}
+
+section.full-page .welcome #name{
+    text-transform: uppercase;
+}
+
+section.full-page .text{
+    color: #F78501;
+    font-size: 2.5em;
+    letter-spacing: 5px;
+    line-height: 80px;
+}
+
+section.full-page .text span{
+    font-weight: 700;
+    color:cornflowerblue
+}
+
+section.full-page .time{
+    width: 45vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+}
+section.full-page .time .day{
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+section.full-page .time .clock{
+    width: 45vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.full-page .time .inner-time{
+    width: 13vw;
+    height: 25vh;
+    background: #2295F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004); /*https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-box-reflect*/
+}
+
+section.full-page .time .inner-time:last-child{
+    background-color: #F78501;
+}
+
+section.full-page .time .inner-time:last-child span{
+    background-color: #b96606;
+}
+
+section.full-page .time .inner-time p{
+    font-size: 5em;
+    padding-bottom: 40px;
+}
+
+section.full-page .time .inner-time span{
+    position: absolute;
+    bottom: 0;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 13vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid gray;
+    background-color: #177BD3;
+}
