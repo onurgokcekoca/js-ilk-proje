@@ -3,6 +3,7 @@ Bu repo [Kodluyoruz]{https://www.kodluyoruz.org/} Front-end eğitimi ödevi sonu
 
 # Proje İçeriği
 Canlı bir akış içerisinde olan Saat yapımı.
+onizleme.png dosyası aracılığı ile ön izleme yapabilirsiniz. 
 
 ## Installation
 Öncelikle projeyi clonelayın. https://github.com/onurgokcekoca/kodluyoruzilkrepo.git
